@@ -1,0 +1,63 @@
+ <div class="main">
+ <div class="background">
+  <div class="content">
+      <div class="mainbar">
+        <div class="article">
+          <h2>Put your Article here !</h2>
+          <h3>Want to share your knowledge? Submit your abstract by completing the form below.</h3>
+        </div>
+        <div class="article">
+          <form (ngSubmit)="submitAbstract()">
+          <ol><li>
+            <label for="title">Title</label>
+            <input id="title" name="title" class="text" [(ngModel)]="abstract.title" />
+          </li><li>
+            <label for="url">URL of publication</label>
+            <input id="url" name="url" class="text" [(ngModel)]="abstract.url" />
+          </li><li>
+            <label for="doi">DOI number (Digital Object Identifier)</label>
+            <input id="doi" name="doi" class="text" [(ngModel)]="abstract.doi" />
+          </li><li>
+            <label for="page">Page number</label>
+            <input id="page" name="page" class="text" [(ngModel)]="abstract.page" />
+          </li><li>
+            <label for="message">Your Abstract</label>
+            <textarea id="abstract" name="abstract" rows="8" cols="50"  [(ngModel)]="abstract.summary" ></textarea>
+          </li><li>
+            <label for="keyword">Keywords</label>
+            <input id="keyword" name="keyword" class="text" [(ngModel)]="abstract.keyword">
+          </li><li>
+          <label for="domainID">Choose a domain
+          <select name="domainID" size="1" class="choice" [(ngModel)]="abstract.domainID">
+            <option default>-- Select --</option>
+            <option value=1>Science</option>
+            <option value=2>IT</option>
+            <option value=3>Physics</option>
+            <option value=4>Anatomy</option>
+            <option value=5>Art</option>
+            <option value=6>Literature</option>
+            <option value=7>Politic</option>
+            <option value=8>Other</option>
+            </select></label>
+            <li><button type="submit" class="btn-primary">Save changes</button>
+            <div class="clr"></div>
+          </li></ol>
+          </form>
+        </div>
+      </div>
+      <div class="sidebar">
+        <div class="gadget">
+          <h2 class="star">Sidebar Menu</h2>
+          <ul class="sb_menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">TemplateInfo</a></li>
+            <li><a href="#">Style Demo</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Archives</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clr"></div>
+  </div>
+</div>
+ </div>

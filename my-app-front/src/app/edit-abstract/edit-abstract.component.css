@@ -1,0 +1,46 @@
+h1 { margin:0; padding:12px 0; color:#e9d8af; font:normal 40px/1.2em Arial, Helvetica, sans-serif;}
+h1 a, h1 a:hover { color:#e9d8af; text-decoration:none;}
+h2 { font:bold 30px Arial, Helvetica, sans-serif; color:rgb(0, 0, 0); padding:8px 0; margin:10px 0;}
+h3 { font:normal 15px Arial, Helvetica, sans-serif; color:rgb(0, 0, 0); padding:8px 0; margin:8px 0; text-align: justify;}
+h4 { font:bold 30px Arial, Helvetica, sans-serif; color:#ffffff; padding:8px 0; margin:8px 0;}
+p { margin:8px 0; padding:0 0 8px 0; font:normal 12px/1.8em Arial, Helvetica, sans-serif;}
+a { color:rgb(0, 0, 0); text-decoration:underline; padding:2px 4px;}
+a:hover { background-color:#e9d8af;}
+a.nobg:hover { background:none; text-decoration:none;}
+
+
+
+
+/* content */
+.content { padding-bottom:16px; padding-top: 300px; margin-left: -80px;}
+.content img { padding:4px; border:1px solid #bbb;}
+.content img.ilf { margin-right:16px; float:left;}
+.content .mainbar { float:left; width:500px;}
+.content .mainbar .article ol {margin-top: -20px;}
+.content .mainbar .article h2 { font:bold 30px Arial, Helvetica, sans-serif; color:rgb(0, 0, 0); padding:8px 0; margin:10px 0; margin-left: 30px;}
+.content .mainbar .article h3 { font:normal 15px Arial, Helvetica, sans-serif; color:rgb(0, 0, 0); padding:8px 0; margin:8px 0; text-align: justify; margin-left: 30px;}
+.content .mainbar .article .btn-primary { margin-top: 30px; color: black; background-color: #e9d8afd8;}
+.content .mainbar .article .choice { margin-left: 10px;}
+.content .mainbar .article, .content .sidebar .gadget { margin:0; padding:0 0 16px 0; color: black;}
+.content .sidebar { float:right; width:236px;}
+ul.sb_menu, ul.ex_menu { margin:0; padding:0; list-style:none;}
+ul.sb_menu li, ul.ex_menu li { margin:0;}
+ul.sb_menu li { padding:4px 0;}
+ul.ex_menu li { padding:4px 0 8px;}
+ul.sb_menu li a, ul.ex_menu li a { text-decoration:none; color: black;}
+ul.sb_menu li a:hover, ul.ex_menu li a:hover { font-weight:bold;}
+ul.sb_menu li a:hover { text-decoration:underline;}
+ul.ex_menu li a:hover { text-decoration:none;}
+
+/* subpages */
+.content .mainbar .comment { margin:0; padding:16px 0 0 0;}
+.content .mainbar .comment img.userpic { border:1px solid #dedede; margin:10px 16px 0 0; padding:0; float:left;}
+
+
+/* form */
+ol { list-style:none;}
+ol li { display:block; clear:both;}
+ol li label { display:block; margin:0; padding:16px 0 0 0; color: black;}
+ol li input.text { width:480px; border:1px solid #c0c0c0; margin:2px 0; padding:5px 2px; height:25px; background:#fff;}
+ol li textarea { width:480px; border:1px solid #c0c0c0; margin:2px 0; padding:2px; background:#fff;}
+ol li .send { margin:16px 0 0 0;}

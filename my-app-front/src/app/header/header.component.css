@@ -1,0 +1,17 @@
+h1 { margin:0; padding:12px 0; color:#e9d8af; font:normal 40px/1.2em Arial, Helvetica, sans-serif;}
+h1 a, h1 a:hover { color:#e9d8af; text-decoration:none;}
+
+.header, .menu_nav, .fbg, .footer, form, ol, ol li, ul { margin:0; padding:0;}
+.header_resize, .fbg_resize { margin:0 auto; padding:0 40px; width:890px;}
+
+/* header */
+.header { background:url("/assets/images/header_bg1.jpeg") repeat-x top;}
+.header_resize { height:295px;}
+.header .logo { float:left; padding-top:12px;}
+
+/* menu */
+.menu_nav { height:32px; float:right; width:auto; padding-top:17px;}
+.menu_nav ul { width:auto; list-style:none;}
+.menu_nav ul li { margin:0 1px; float:left;}
+.menu_nav ul li a { display:block; margin:0; padding:22px 28px; color:#fff; text-decoration:none; font-weight:normal; font-size: 13px;}
+.menu_nav ul li a:hover, .menu_nav ul li.active a { background:url("/assets/images/menu_b.jpeg") no-repeat center center; color:#e9d8af;}
